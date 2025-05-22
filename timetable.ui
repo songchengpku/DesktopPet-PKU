@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Timetable</class>
+ <widget class="QDialog" name="Timetable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>课程表</string>
+  </property>
+  <widget class="QPushButton" name="add">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>450</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dlt">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>450</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>758</width>
+     <height>386</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>758</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>386</height>
+    </size>
+   </property>
+   <row>
+    <property name="text">
+     <string>第一节</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第二节</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第三节</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第四节</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第五节</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第六节</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第七节</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第八节</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第九节</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第十节</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第十一节</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>第十二节</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>星期一</string>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期二</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期三</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期四</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期五</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期六</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期日</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>40</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>220</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clear">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>130</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

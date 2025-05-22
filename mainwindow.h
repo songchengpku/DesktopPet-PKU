@@ -17,7 +17,19 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_timetable_clicked();
+
+    void on_close_clicked();
+
 private:
     Ui::MainWindow *ui;
+
+protected:
+    void mousePressEvent(QMouseEvent *event) override;
+    void mouseMoveEvent(QMouseEvent *event) override;
+
+private:
+    QPoint m_dragPosition;
 };
 #endif // MAINWINDOW_H

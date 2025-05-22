@@ -1,28 +1,40 @@
 #ifndef TIMETABLE_H
 #define TIMETABLE_H
 
-#include <QMainWindow>
-#include <QObject>
-#include <QQuickItem>
-#include <QSharedDataPointer>
-#include <QWidget>
+#include <QDialog>
 
-class timetableData;
+namespace Ui {
+class Timetable;
+}
 
-class timetable
+class Timetable : public QDialog
 {
     Q_OBJECT
-    QML_ELEMENT
+
 public:
-    timetable();
-    timetable(const timetable &);
-    timetable(timetable &&);
-    timetable &operator=(const timetable &);
-    timetable &operator=(timetable &&);
-    ~timetable();
+    explicit Timetable(QWidget *parent = nullptr);
+    ~Timetable();
+    void saveTimetable();
+    void loadTimetable();
+    bool saved=true;
+protected:
+    void closeEvent(QCloseEvent *event) override;
+
+private slots:
+    void on_add_clicked();
+
+    void on_dlt_clicked();
+
+    void on_save_clicked();
+
+    void on_tableWidget_cellChanged(int row, int column);
+
+    void on_close_clicked();
+
+    void on_clear_clicked();
 
 private:
-    QSharedDataPointer<timetableData> data;
+    Ui::Timetable *ui;
 };
 
 #endif // TIMETABLE_H
