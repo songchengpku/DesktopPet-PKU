@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/background1.png</file>
+        <file>resources/badminton.gif</file>
+        <file>resources/bathing.png</file>
+        <file>resources/choice.txt</file>
+        <file>resources/dressing.png</file>
+        <file>resources/eating.png</file>
+        <file>resources/goodbye.png</file>
+        <file>resources/lock.png</file>
+        <file>resources/lock.txt</file>
+        <file>resources/running.gif</file>
+        <file>resources/sports.png</file>
+        <file>resources/stable.png</file>
+        <file>resources/study.png</file>
+        <file>resources/timetable.txt</file>
+        <file>resources/welcome.gif</file>
+        <file>resources/work.png</file>
+        <file>resources/background.png</file>
+    </qresource>
+</RCC>

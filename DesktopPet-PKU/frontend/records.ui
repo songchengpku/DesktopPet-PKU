@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>records</class>
+ <widget class="QDialog" name="records">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>962</width>
+    <height>618</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>运动记录</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_8">
+   <item row="0" column="1">
+    <widget class="QFrame" name="badmintonframe">
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="runLabel_2">
+        <property name="text">
+         <string>羽毛球</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="badmintonTime">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>时间</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="badmintonBtn">
+        <property name="text">
+         <string>记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="badmintonCalLabel">
+        <property name="text">
+         <string>预计消耗: 0 卡路里</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QFrame" name="basketballframe">
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_5">
+      <item row="0" column="3">
+       <widget class="QPushButton" name="basketballBtn">
+        <property name="text">
+         <string>记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="runLabel_5">
+        <property name="text">
+         <string>篮球</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="basketballTime">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>时间</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="basketballCalLabel">
+        <property name="text">
+         <string>预计消耗: 0 卡路里</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QFrame" name="climbingframe">
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_9">
+      <item row="0" column="0">
+       <widget class="QLabel" name="runLabel_9">
+        <property name="text">
+         <string>登山</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="climbingTime">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>时间</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_17">
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="climbingBtn">
+        <property name="text">
+         <string>记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="climbingCalLabel">
+        <property name="text">
+         <string>预计消耗: 0 卡路里</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QFrame" name="tennisframe">
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="3">
+       <widget class="QPushButton" name="tennisBtn">
+        <property name="text">
+         <string>记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="tennisTime">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>时间</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="runLabel_4">
+        <property name="text">
+         <string>网球</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="tennisCalLabel">
+        <property name="text">
+         <string>预计消耗: 0 卡路里</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QFrame" name="volleyballframe">
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_6">
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="volleyballTime">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>时间</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="volleyballBtn">
+        <property name="text">
+         <string>记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="runLabel_6">
+        <property name="text">
+         <string>排球</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="volleyCalLabel">
+        <property name="text">
+         <string>预计消耗: 0 卡路里</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QFrame" name="pingpongframe">
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="pingpongTime">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>时间</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="runLabel_3">
+        <property name="text">
+         <string>乒乓球</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="pingpongBtn">
+        <property name="text">
+         <string>记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="pingpongCalLabel">
+        <property name="text">
+         <string>预计消耗: 0 卡路里</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QFrame" name="runframe">
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="runTimeEdit">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::EchoMode::Normal</enum>
+        </property>
+        <property name="placeholderText">
+         <string>时间</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="runButton">
+        <property name="text">
+         <string>记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>千米</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="runLabel">
+        <property name="text">
+         <string>跑步</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="runDisEdit">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>里程</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="runCalLabel">
+        <property name="text">
+         <string>预计消耗: 0 卡路里</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QFrame" name="swimmingframe">
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_10">
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_19">
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="runLabel_10">
+        <property name="text">
+         <string>游泳</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="swimmingTime">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>时间</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="swimmingBtn">
+        <property name="text">
+         <string>记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="swimmingCalLabel">
+        <property name="text">
+         <string>预计消耗: 0 卡路里</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QFrame" name="footballframe">
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_7">
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="footballTime">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>时间</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="footballBtn">
+        <property name="text">
+         <string>记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="runLabel_7">
+        <property name="text">
+         <string>足球</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="footbalCalLabel">
+        <property name="text">
+         <string>预计消耗: 0 卡路里</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QFrame" name="ridingframe">
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_11">
+      <item row="0" column="0">
+       <widget class="QLabel" name="runLabel_8">
+        <property name="text">
+         <string>骑行</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="ridingTime">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>时间</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="ridingBtn">
+        <property name="text">
+         <string>记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_15">
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="ridingCalLabel">
+        <property name="text">
+         <string>预计消耗: 0 卡路里</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="2" rowspan="5">
+    <widget class="QScrollBar" name="verticalScrollBar">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
