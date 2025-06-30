@@ -178,9 +178,10 @@ MainWindow::MainWindow(QWidget *parent)
     ui->cleanliness->setValue(cleanliness);
     ui->favorability->setValue(favorability);
 
-    ui->timetable->setStyleSheet("background-color: #f5f5f5;");
-    ui->shedule->setStyleSheet("background-color: #f5f5f5;");
-    ui->sportmanagement->setStyleSheet("background-color: #f5f5f5;");
+    ui->timetable->setStyleSheet("background-color: #38b8d6;");
+    ui->shedule->setStyleSheet("background-color: #e9adf5;");
+    ui->sportmanagement->setStyleSheet("background-color: #38d231;");
+    ui->chatButton->setStyleSheet("background-color: #FF9A76;");
 
     ui->satiety->setStyleSheet(
         "QProgressBar {"

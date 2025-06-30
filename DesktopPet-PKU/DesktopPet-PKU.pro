@@ -18,8 +18,6 @@ SOURCES += \
     frontend/mainwindow.cpp \
     frontend/mainwindowclose.cpp \
     frontend/timetable.cpp \
-    frontend/timetable_add.cpp \
-    frontend/timetable_delete.cpp \
     frontend/timetableclear.cpp \
     frontend/timetableclose.cpp \
     frontend/timetableremind.cpp \
@@ -38,8 +36,6 @@ HEADERS += \
     frontend/mainwindow.h \
     frontend/mainwindowclose.h \
     frontend/timetable.h \
-    frontend/timetable_add.h \
-    frontend/timetable_delete.h \
     frontend/timetableclear.h \
     frontend/timetableclose.h \
     frontend/timetableremind.h \
@@ -56,8 +52,6 @@ FORMS += \
     frontend/mainwindow.ui \
     frontend/mainwindowclose.ui \
     frontend/timetable.ui \
-    frontend/timetable_add.ui \
-    frontend/timetable_delete.ui \
     frontend/timetableclear.ui \
     frontend/timetableclose.ui \
     frontend/timetableremind.ui \

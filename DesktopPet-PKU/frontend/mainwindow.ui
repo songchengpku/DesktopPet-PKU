@@ -32,7 +32,7 @@
    <widget class="QPushButton" name="sportmanagement">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>40</x>
       <y>10</y>
       <width>60</width>
       <height>20</height>
@@ -203,7 +203,7 @@
    <widget class="QPushButton" name="chatButton">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>140</x>
       <y>10</y>
       <width>61</width>
       <height>21</height>
@@ -223,7 +223,7 @@
      <x>0</x>
      <y>0</y>
      <width>240</width>
-     <height>25</height>
+     <height>18</height>
     </rect>
    </property>
   </widget>
