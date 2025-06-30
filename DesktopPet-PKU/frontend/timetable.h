@@ -38,8 +38,6 @@ protected:
     void closeEvent(QCloseEvent *event) override;
 
 private slots:
-    void on_add_clicked();
-    void on_dlt_clicked();
     void on_save_clicked();
     void on_tableWidget_cellChanged(int row, int column);
     void on_close_clicked();

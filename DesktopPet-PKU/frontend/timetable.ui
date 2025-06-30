@@ -19,32 +19,6 @@
   <property name="windowTitle">
    <string>课程表</string>
   </property>
-  <widget class="QPushButton" name="add">
-   <property name="geometry">
-    <rect>
-     <x>400</x>
-     <y>450</y>
-     <width>48</width>
-     <height>48</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>添加</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="dlt">
-   <property name="geometry">
-    <rect>
-     <x>490</x>
-     <y>450</y>
-     <width>48</width>
-     <height>48</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>删除</string>
-   </property>
-  </widget>
   <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
     <rect>

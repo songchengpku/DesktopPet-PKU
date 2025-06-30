@@ -1,7 +1,5 @@
 #include "timetable.h"
 #include "ui_timetable.h"  // 确保包含这个头文件
-#include "timetable_add.h"
-#include "timetable_delete.h"
 #include <QSettings>
 #include <QFile>
 #include <QTextStream>
@@ -120,8 +118,6 @@ Timetable::Timetable(QWidget *parent)
 
     resizeTableToViewport();
     ui->tableWidget->setWordWrap(true);
-    ui->add->setVisible(false);
-    ui->dlt->setVisible(false);
 
     QLabel* background = new QLabel(this);
     QPixmap bg(":/resources/background.png");
@@ -139,19 +135,6 @@ Timetable::Timetable(QWidget *parent)
 Timetable::~Timetable()
 {
     delete ui;
-}
-
-void Timetable::on_add_clicked()
-{
-    Timetable_add ta;
-    ta.exec();
-}
-
-
-void Timetable::on_dlt_clicked()
-{
-    Timetable_delete td;
-    td.exec();
 }
 
 // 保存数据（支持换行）
